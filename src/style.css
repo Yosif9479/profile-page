@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+html
+{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.bouncy
+{
+    @apply duration-200 active:scale-120
+}
